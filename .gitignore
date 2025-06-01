@@ -9,4 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
+# environment variavles
+.env
+
 CLAUDE.md
