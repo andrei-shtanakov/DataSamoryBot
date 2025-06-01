@@ -45,7 +45,6 @@ WORKDIR /home/app
 # Копирование исходного кода
 COPY --chown=app:app src/ ./src/
 COPY --chown=app:app main.py pyproject.toml ./
-COPY --chown=app:app data/ ./data/
 
 # Создание необходимых директорий
 RUN mkdir -p data/articles data/templates
